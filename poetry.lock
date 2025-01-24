@@ -70,6 +70,16 @@ files = [
 ]
 
 [[package]]
+name = "css"
+version = "0.1"
+description = "a small, fast css parser for python the utilizes the codetalker library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "css-0.1.tar.gz", hash = "sha256:44b15465f6a8e736077727ecbe978ff9578517eecac42e4cca31e530fad8eab1"},
+]
+
+[[package]]
 name = "flake8"
 version = "7.1.1"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -319,4 +329,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "d098acdf1aca6f4862a092cd686ccca0936cfcf25443d51b8ee75ec52772caf6"
+content-hash = "284a806063774fe8b30989f6077d29a7323dc79ba3231eb7dd352fe49a97edb0"
