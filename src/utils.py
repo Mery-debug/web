@@ -10,7 +10,7 @@ class MyServer(BaseHTTPRequestHandler):
 
     def do_GET(self):
         """ Метод для обработки входящих GET-запросов """
-        html_dir = Path(__file__).parent.parent.joinpath('html')
+        html_dir = Path(__file__).parent.parent.joinpath('pages')
         file_path = html_dir / "contacts.html"
 
         if file_path.exists():
