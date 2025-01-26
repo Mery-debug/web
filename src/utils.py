@@ -10,14 +10,14 @@ class MyServer(BaseHTTPRequestHandler):
 
     def do_GET(self):
         """ Метод для обработки входящих GET-запросов """
-        html_dir = Path("contacts.html")
-        # file_path = html_dir / "contacts.html"
+        html_dir = Path("C:/Users/mi/PycharmProjects/pythonProject11/pages")
+        file_path = html_dir / "contacts.html"
 
-        if html_dir.exists():
+        if file_path.exists():
             self.send_response(200)
             self.send_header("Content-type", "text/html; charset=utf-8")
             self.end_headers()
-            with open(html_dir, "r", encoding="utf-8") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
             return self.wfile.write(content.encode("utf-8"))
         else:
