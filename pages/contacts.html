@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Контакты</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<a href="#offcanvasDark">
+    <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark">
+        Меню
+    </button>
+</a>
+<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+  <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasDarkLabel">Меню</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <button type="button" class="btn btn-dark w-100" style="text-align: start">Главная</button>
+      <button type="button" class="btn btn-dark w-100" style="text-align: start">Каталог 1</button>
+      <button type="button" class="btn btn-dark w-100" style="text-align: start">Категория</button>
+      <button type="button" class="btn btn-dark w-100" style="text-align: start">Контакты</button>
+  </div>
+</div>
+    <div class="row mt-5">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <h2 style="text-align:center">Контакты</h2>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-6">
+            <div class="row mt-5">
+                <div class="col-4"></div>
+                <div class="col-6">
+                    <div class="card" style="width: 20rem;">
+                        <nav class="navbar bg-body-tertiary">
+                            <form class="container-fluid">
+                                <label for="exampleFormControlInput1" class="form-label w-100">Имя</label>
+                                <input type="text" class="form-control w-100" id="exampleFormControlInput1">
+                                <label class="form-label w-100">Почта</label>
+                                <div class="input-group">
+                                    <span class="input-group-text w-10" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control w-90" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                <label class="form-label w-100">Сообщение</label>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                                <button type="button" class="btn btn-primary" style="margin: 10px">Отправить</button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <div class="col-4" style="margin: 40px">
+        <h3>Наши контакты</h3>
+            <p class="text-start">Много много много много много много много много много текста.</p>
+            <p class="text-start">Чуть поменьше текста.</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</body>
+</html>

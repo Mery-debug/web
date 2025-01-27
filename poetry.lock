@@ -70,6 +70,27 @@ files = [
 ]
 
 [[package]]
+name = "css"
+version = "0.1"
+description = "a small, fast css parser for python the utilizes the codetalker library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "css-0.1.tar.gz", hash = "sha256:44b15465f6a8e736077727ecbe978ff9578517eecac42e4cca31e530fad8eab1"},
+]
+
+[[package]]
+name = "decorator"
+version = "5.1.1"
+description = "Decorators for Humans"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "decorator-5.1.1-py3-none-any.whl", hash = "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"},
+    {file = "decorator-5.1.1.tar.gz", hash = "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330"},
+]
+
+[[package]]
 name = "flake8"
 version = "7.1.1"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -286,6 +307,19 @@ pluggy = ">=1.5,<2"
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
 [[package]]
+name = "self"
+version = "2020.12.3"
+description = "@self decorator makes method return self (jQuery-like chaining)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "self-2020.12.3.tar.gz", hash = "sha256:a0c408138257e0ba6188f2a7ad80cb3f61c3e48c3f85d1f973a160f6f887dc53"},
+]
+
+[package.dependencies]
+decorator = "*"
+
+[[package]]
 name = "setuptools"
 version = "75.8.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
@@ -319,4 +353,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "d098acdf1aca6f4862a092cd686ccca0936cfcf25443d51b8ee75ec52772caf6"
+content-hash = "a966226e24f47b5b9fd8e88d1a56423e9c9b7b913b6f947d91839270e6337c7c"
